@@ -16,7 +16,9 @@ h1 {
 
 h2 {
     margin: 0;
-    float: right;
+    position: absolute;
+    top: -1px;
+    right: -1px;
     padding: 2px 44px;
     font-size: 18px;
     border: 1px solid black;
@@ -50,6 +52,8 @@ p {
     border: 1px solid black;
     margin: 0 15px;
     background-color: #dcdcdc;
+    position: relative;
+    padding-top: 25px;
 }
 
 .col {
